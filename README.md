@@ -1,8 +1,64 @@
-# Getting Started with Create React App
+# Quotify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Summary
+
+[To be added]
+
+# Table of Contents
+
+- [Summary](#summary)
+- [Contributing](#contributing)
+    - [Workflow](#workflow)
+- [How to run locally](#how-to-run-locally)
+    - [Pre-requisites](#pre-requisites)
+    - [Process](#process)
+- [Directory Structure](#directory-structure)
+- [Available Scripts](#available-scripts)
+
+
+# Contributing
+
+Always test your code before sending a Pull Request. 
+> If it's failing in your machine, probably it will in ours too
+
+## Workflow
+
+Please follow standard fork-and-pull workflow.
+
+- Fork the repo on GitHub
+- Clone the project locally
+- Commit changes to your own branch
+- Send a pull request
+
+# How to run locally
+
+## Pre-requisites
+
+- NodeJS
+- Yarn 
+
+## Process
+
+- Go to the root directory of this project
+- Open a `terminal` here
+- Run the command `yarn install`
+- Run the command [yarn start](#yarn-start)
+
+# Directory Structure
+
+```
+Quotify
+├── public
+├── Design
+│   ├── UI
+│   └── Graphics
+└── src
+    ├── Components
+    └── Pages
+```
+
+# Available Scripts
 
 In the project directory, you can run:
 
@@ -38,33 +94,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
