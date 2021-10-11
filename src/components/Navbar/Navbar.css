@@ -1,0 +1,14 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(37, 87, 78, 0.753);
+    color: white;
+    width: auto;
+    height: 10vh;
+    font-size: 30px;
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+}
