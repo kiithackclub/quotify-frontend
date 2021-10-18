@@ -1,14 +1,38 @@
-.Navbar {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(37, 87, 78, 0.753);
-    color: white;
-    width: auto;
-    height: 10vh;
-    font-size: 30px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 15px;
+.ul {
+    list-style: none;
+    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
 }
+
+.li {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Grid1 {
+    background-color: rgba(177, 121, 121, 0.623);
+    overflow: hidden;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    height: 100px;
+
+}
+
+.nav{
+    padding-top: 4vh;
+    padding-left: -20vh;
+}
+
+.logo {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+}
+
