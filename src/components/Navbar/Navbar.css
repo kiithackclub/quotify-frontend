@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.li {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Grid1 {
+    background-color: rgba(177, 121, 121, 0.623);
+    overflow: hidden;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    height: 100px;
+
+}
+
+.nav{
+    padding-top: 4vh;
+    padding-left: -20vh;
+}
+
+.logo {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+}
+
